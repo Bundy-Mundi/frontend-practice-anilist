@@ -11,4 +11,8 @@ export default [
     to:"/contact",
     name:"CONTACT"
   },
+  {
+    to:"/animation",
+    name:"ANIMATION"
+  }
 ]

@@ -4,9 +4,7 @@ import Layout from "../components/Layout/Layout";
 export default () => {
   return (
     <Layout>
-      <div>
-        ABOUT
-      </div>
+      <div>ABOUT</div>
     </Layout>
-  )
-}
+  );
+};

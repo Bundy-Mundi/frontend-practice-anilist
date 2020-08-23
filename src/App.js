@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from './pages/About';
 import Contact from "./pages/Contact";
+import Animation from "./pages/Animation/Animation";
 
 export default () => {
   return (
@@ -16,6 +17,9 @@ export default () => {
         </Route>
         <Route exact path="/contact">
           <Contact/>
+        </Route>
+        <Route exact path="/animation">
+          <Animation/>
         </Route>
       </Switch>
     </Router>

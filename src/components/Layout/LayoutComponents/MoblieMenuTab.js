@@ -13,7 +13,7 @@ const MenuTab = ({ zIndex, tailwind, translate, onClick }) => {
       </div>
       {
         menu.map((v,k) => (
-          <Link to={v.to}><li onClick={ onClick ?? null } className={tailwind.mobile_menu_item}>{v.name}</li></Link>
+          <Link key={k} to={v.to}><li key={k} onClick={ onClick ?? null } className={tailwind.mobile_menu_item}>{v.name}</li></Link>
         ))
       }
     </ul>
